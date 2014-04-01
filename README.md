@@ -1,4 +1,4 @@
-oszt-lyok
+osztályok
 =========
 
 osztályok
