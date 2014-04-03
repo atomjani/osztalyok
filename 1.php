@@ -1,10 +1,6 @@
 <?php
-include_once 'SplClassLoader.php';
-
-$autoloader = new SplClassLoader('Teszt', '/osztaly/kulso/teszt1');
-$autoloader->setNamespaceSeparator('_');
-$autoloader->register();
+include 'init.php';
    
-  $a = new Test();
+$a = new kulso_teszt1_Test();
 ?>
 

@@ -1,10 +1,5 @@
 <?php
-include_once 'SplClassLoader.php';
+include 'init.php';
 
-
-$autoloader = new SplClassLoader('Kepek', '/osztaly/kulso/teszt2');
-$autoloader->setNamespaceSeparator('_');
-$autoloader->register();
-
-  $b = new Image();
+$b = new kulso_teszt2_Image();
 ?>
