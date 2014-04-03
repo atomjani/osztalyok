@@ -3,10 +3,10 @@ include_once 'SplClassLoader.php';
 
 $projectDir = dirname(__FILE__);
 
-$autoloader = new SplClassLoader('Test', $projectDir . '/osztaly/kulso/teszt1');
+$autoloader = new SplClassLoader('kulso', $projectDir . '/osztaly');
 $autoloader->setNamespaceSeparator('_');
 $autoloader->register();
    
-$a = new Test();
+$a = new kulso_teszt1_Test();
 ?>
 

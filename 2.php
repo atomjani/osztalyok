@@ -3,9 +3,9 @@ include_once 'SplClassLoader.php';
 
 $projectDir = dirname(__FILE__);
 
-$autoloader = new SplClassLoader('Kepek', $projectDir . '/osztaly/kulso/teszt2');
+$autoloader = new SplClassLoader('kulso', $projectDir . '/osztaly');
 $autoloader->setNamespaceSeparator('_');
 $autoloader->register();
 
-  $b = new Image();
+  $b = new kulso_teszt2_Image();
 ?>
